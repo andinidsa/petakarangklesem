@@ -1,0 +1,1 @@
+var json_SPBU_10 = {"type":"FeatureCollection","name":"SPBU_10","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":null,"nama":"SPBU Gerilya"},"geometry":{"type":"Point","coordinates":[109.247362011433211,-7.439256078580803]}}]}
