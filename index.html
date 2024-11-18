@@ -70,7 +70,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-7.468260501431962,109.2235440642229],[-7.440233052430278,109.26177485946236]]);
+        }).fitBounds([[-7.469445952447138,109.22182939400449],[-7.441418503445455,109.26006018924394]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -182,6 +182,201 @@
 
         function style_batasdesa_1_0(feature) {
             switch(String(feature.properties['Nama'])) {
+                case 'RW 1':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(147,224,46,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 10':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(234,234,120,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 11':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(227,73,45,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 12':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(219,60,174,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 13':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(45,230,97,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 2':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(112,26,225,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 3':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(12,200,147,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 4':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(49,46,211,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 5':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(49,203,227,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 6':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(79,142,225,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 7':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,129,153,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 8':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(207,137,46,1.0)',
+                interactive: true,
+            }
+                    break;
+                case 'RW 9':
+                    return {
+                pane: 'pane_batasdesa_1',
+                opacity: 1,
+                color: 'rgba(85,127,133,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(202,57,224,1.0)',
+                interactive: true,
+            }
+                    break;
                 default:
                     return {
                 pane: 'pane_batasdesa_1',
@@ -193,7 +388,7 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(229,219,118,1.0)',
+                fillColor: 'rgba(97,200,79,1.0)',
                 interactive: true,
             }
                     break;
@@ -315,7 +510,7 @@
                 stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(148,209,128,1.0)',
+                fillColor: 'rgba(86,156,63,1.0)',
                 interactive: true,
             }
         }
@@ -1313,7 +1508,7 @@
             {label: '<img src="legend/sungai_4.png" /> sungai', layer: layer_sungai_4},
             {label: '<img src="legend/Kebun_3.png" /> Kebun', layer: layer_Kebun_3},
             {label: '<img src="legend/JalanDesa_2.png" /> Jalan Desa ', layer: layer_JalanDesa_2},
-            {label: 'batasdesa<br /><table><tr><td style="text-align: center;"><img src="legend/batasdesa_1_0.png" /></td><td></td></tr></table>', layer: layer_batasdesa_1},
+            {label: 'batasdesa<br /><table><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW10.png" /></td><td>RW 1</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW101.png" /></td><td>RW 10</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW112.png" /></td><td>RW 11</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW123.png" /></td><td>RW 12</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW134.png" /></td><td>RW 13</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW25.png" /></td><td>RW 2</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW36.png" /></td><td>RW 3</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW47.png" /></td><td>RW 4</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW58.png" /></td><td>RW 5</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW69.png" /></td><td>RW 6</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW710.png" /></td><td>RW 7</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW811.png" /></td><td>RW 8</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_RW912.png" /></td><td>RW 9</td></tr><tr><td style="text-align: center;"><img src="legend/batasdesa_1_13.png" /></td><td></td></tr></table>', layer: layer_batasdesa_1},
             {label: "OpenStreetMap", layer: layer_OpenStreetMap_0},]
         var lay = L.control.layers.tree(null, overlaysTree,{
             //namedToggle: true,
