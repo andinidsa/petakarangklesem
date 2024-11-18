@@ -70,7 +70,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-7.469445952447138,109.22182939400449],[-7.441418503445455,109.26006018924394]]);
+        }).fitBounds([[-7.46629709818808,109.22103027300767],[-7.438269649186396,109.25926106824713]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -448,11 +448,11 @@
             return {
                 pane: 'pane_JalanDesa_2',
                 opacity: 1,
-                color: 'rgba(152,125,183,1.0)',
+                color: 'rgba(0,0,0,1.0)',
                 dashArray: '',
                 lineCap: 'square',
                 lineJoin: 'bevel',
-                weight: 1.0,
+                weight: 2.0,
                 fillOpacity: 0,
                 interactive: true,
             }
@@ -1540,7 +1540,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['namaJalan'] !== null?String('<div style="color: #323232; font-size: 5pt; font-weight: bold; font-family: \'Segoe UI Semibold\', sans-serif;">' + layer.feature.properties['namaJalan']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_JalanDesa_2'});
+            layer.bindTooltip((layer.feature.properties['namaJalan'] !== null?String('<div style="color: #323232; font-size: 6pt; font-weight: bold; font-family: \'Segoe UI Semibold\', sans-serif;">' + layer.feature.properties['namaJalan']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_JalanDesa_2'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
